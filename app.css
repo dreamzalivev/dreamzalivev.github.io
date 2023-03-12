@@ -1,0 +1,92 @@
+.bill-table td.table-data {
+    border-width: 0px 1px 0px 1px !important;
+    border-color: black;
+    border-style: solid;
+    border-bottom-width: 0px !important;
+}
+
+.tax-border-bottom {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px !important;
+    border-bottom-color: black;
+}
+
+.meta-info {
+    border: 1px solid black;
+    border-bottom-width: 0px;
+}
+
+.meta-info-rb {
+    border-style: solid;
+    border-width: 0px;
+    border-right-width: 1px;
+}
+
+.bill-table th {
+    border: 1px solid black
+}
+
+table.bill-table>tbody>tr.table-data:last-child {
+    border-bottom: 1px solid black;
+}
+
+.header {
+    border: 1px solid black;
+    border-bottom-width: 0px;
+}
+
+.edit-control {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: -5.5em;
+    -webkit-transition: opacity 100ms ease-in;
+    transition: opacity 100ms ease-in;
+    width: 85px;
+}
+
+.bill-table tbody tr:hover .edit-control {
+    opacity: 1;
+}
+
+.edit-control .btn-danger {
+    margin-left: 3px
+}
+
+.bill-table th,
+.bill-table td.table-data {
+    position: relative;
+}
+
+.add-item {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -4em;
+}
+
+.back-page {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -200px;
+}
+
+body:hover .add-item,
+body:hover .back-page {
+    display: block
+}
+
+.grand-total-row {
+    border: 1px solid black
+}
+
+.bill-table {
+    margin-bottom: 0px;
+}
+
+.box-container {
+    border: 1px solid black;
+    border-top-width: 0px;
+}
